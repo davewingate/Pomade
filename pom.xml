@@ -14,6 +14,12 @@
         <test.coverage.min>25</test.coverage.min>
     </properties>
     
+    <scm>
+        <connection>scm:git:git://github.com/davewingate/Pomade.git</connection>
+        <developerConnection>scm:git:git@github.com:davewingate/Pomade.git</developerConnection>
+        <url>http://github.com/davewingate/Pomade</url>
+    </scm>
+    
     <build>
         <resources>
             <resource>
