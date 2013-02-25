@@ -6,6 +6,32 @@
     <artifactId>pomade</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    
+    <name>pomade</name>
+    <description>A Maven parent pom offering à la carte selection of common dependency groups and common build profiles.</description>
+    <url>https://github.com/davewingate/Pomade</url>
+    <inceptionYear>2013</inceptionYear>
+        
+    <scm>
+        <connection>scm:git:git://github.com/davewingate/Pomade.git</connection>
+        <developerConnection>scm:git:git@github.com:davewingate/Pomade.git</developerConnection>
+        <url>https://github.com/davewingate/Pomade</url>
+    </scm>
+    
+    <licenses>
+        <license>
+            <name>MIT license</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <id>dave</id>
+            <name>Dave Wingate</name>
+            <email>davewingate@gmail.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -13,12 +39,6 @@
         <test.args>-XX:MaxPermSize=256m -Xms40m -Xmx2g</test.args>
         <test.coverage.min>25</test.coverage.min>
     </properties>
-    
-    <scm>
-        <connection>scm:git:git://github.com/davewingate/Pomade.git</connection>
-        <developerConnection>scm:git:git@github.com:davewingate/Pomade.git</developerConnection>
-        <url>http://github.com/davewingate/Pomade</url>
-    </scm>
     
     <build>
         <resources>
