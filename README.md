@@ -31,7 +31,7 @@ Declare Pomade as your parent pom:
     <parent>
         <groupId>net.big-oh</groupId>
         <artifactId>pomade</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     
     <!-- describe your project -->
