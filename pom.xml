@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,7 +10,7 @@
     <groupId>net.big-oh</groupId>
     <artifactId>pomade</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     
     <name>pomade</name>
     <description>A Maven parent pom offering à la carte selection of common dependency groups and common build profiles.</description>
@@ -212,7 +211,7 @@
                 <javax.persistence.jdbc.driver>org.h2.Driver</javax.persistence.jdbc.driver>
                 <javax.persistence.jdbc.url>jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE</javax.persistence.jdbc.url>
                 <javax.persistence.jdbc.user>sa</javax.persistence.jdbc.user>
-                <javax.persistence.jdbc.password></javax.persistence.jdbc.password>
+                <javax.persistence.jdbc.password />
             </properties>
             <dependencies>
                 <dependency>
@@ -273,8 +272,8 @@
                                 <id>enforce-best-practices</id>
                                 <configuration>
                                     <rules>
-                                        <requirePluginVersions/>
-                                        <requireUpperBoundDeps/>
+                                        <requirePluginVersions />
+                                        <requireUpperBoundDeps />
                                         <requireJavaVersion>
                                             <version>${java.version}</version>
                                         </requireJavaVersion>
