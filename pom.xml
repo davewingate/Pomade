@@ -10,7 +10,7 @@
     <groupId>net.big-oh</groupId>
     <artifactId>pomade</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     
     <name>pomade</name>
     <description>A Maven parent pom offering à la carte selection of common dependency groups and common build profiles.</description>
